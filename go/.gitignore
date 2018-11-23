@@ -1,14 +1,14 @@
 deck.txt
 
 # Binaries for programs and plugins
-/go/*.exe
-/go/*.exe~
-/go/*.dll
-/go/*.so
-/go/*.dylib
+*.exe
+*.exe
+*.dll
+*.so
+*.dylib
 
 # Test binary, build with `go test -c`
-/go/*.test
+*.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
-/go/*.out
+*.out
