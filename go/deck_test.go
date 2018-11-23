@@ -9,7 +9,7 @@ func TestNewDeck(t *testing.T) {
 		t.Errorf("Expected deck lengh of 52, but got %v", len(d))
 	}
 
-	if d[0] != "1 of ♠" {
+	if d[0] != " 1 of ♠" {
 		t.Errorf("Exptected first card of 1 of ♠, but got %v", d[0])
 	}
 
@@ -26,7 +26,7 @@ func TestShuffle(t *testing.T) {
 		t.Errorf("Expected deck lengh of 52, but got %v", len(d))
 	}
 
-	if d[0] == "1 of ♠" {
+	if d[0] == " 1 of ♠" {
 		t.Errorf("Exptected first card of 1 of ♠, but got %v", d[0])
 	}
 
